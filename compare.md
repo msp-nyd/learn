@@ -32,9 +32,6 @@
 | Destination | Transactions written in one location          | Transaction written in many locations    |  
 | Source | Data arrive from one or few locations         | Data arrive from many locations     |
 
- 	                     
-              
- 	               
 ### HBase VS RDBMS
 
 While comparing HBase with Traditional Relational databases, we have to take three key areas into consideration. 
@@ -51,3 +48,17 @@ Those are data model, data storage, and data diversity.
 | a | Retrieve one row at a time and hence could read unnecessary data if only some of the data in a row is required | Read only relevant data from database |
 | a | Structured data can be stored and processed using RDBMS | Structured and semi-structure data can be stored and processed using HBase |
 | a | Aggregation is an expensive operation | Enables aggregation over many rows and columns |
+
+
+### Hive VS HBase:
+
+| Features | Hive | HBase |
+| ----------- | --------------------------------------------- | --------------------------------------------- |
+| Data base model | Relational DBMS | Wide Column store |
+| Data Schema | With Schema | Schema- free |
+| SQL Support | Yes it uses HQL(Hive query language) | No |
+| Partition methods | Sharding | Sharding |
+| Consistency Level | Eventual Consistency | Immediate Consistency |
+| Secondary indexes | Yes | No |
+| Replication Methods | Selectable replication factor | Selectable replication factor |
+

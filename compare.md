@@ -4,7 +4,7 @@
 ### Relational Database VS NoSQL Database:
 
 | Relational Database    | NoSQL Database |
-| --------------------------------------------- | ---------------------------------------------               |
+| --------------------------------------------- | --------------------------------------------- |
 | Handles data coming in low velocity           | Handles data coming in high velocity    |
 | Data arrive from one or few locations         | Data arrive from many locations     |
 | Manages structured data                       | Manages structured unstructured and semi-structured data    |   

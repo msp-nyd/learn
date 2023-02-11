@@ -40,15 +40,14 @@
 While comparing HBase with Traditional Relational databases, we have to take three key areas into consideration. 
 Those are data model, data storage, and data diversity.
 
-HBASE 	RDBMS
-Schema-less in database	Having fixed schema in database
-Column-oriented databases	Row oriented data store
-Designed to store De-normalized data	Designed to store Normalized data
-Wide and sparsely populated tables present in HBase	Contains thin tables in database
-Supports automatic partitioning	Has no built in support for partitioning
-Well suited for OLAP systems	Well suited for OLTP systems
-Read only relevant data from database	Retrieve one row at a time and hence could read unnecessary data if only 
-                                        some of the data in a row is required
-Structured and semi-structure data can be stored and processed using HBase	Structured data can be stored and 
-                                                                            processed using RDBMS
-Enables aggregation over many rows and columns	Aggregation is an expensive operation
+| a | RDBMS | HBASE |
+| ----------- | --------------------------------------------- | --------------------------------------------- |
+| a | Having fixed schema in database | Schema-less in database |
+| a | Row oriented data store | Column-oriented databases |
+| a | Designed to store Normalized data | Designed to store De-normalized data |
+| a | Contains thin tables in database | Wide and sparsely populated tables present in HBase |
+| a | Has no built in support for partitioning | Supports automatic partitioning |
+| a | Well suited for OLTP systems | Well suited for OLAP systems |
+| a | Retrieve one row at a time and hence could read unnecessary data if only some of the data in a row is required | Read only relevant data from database |
+| a | Structured data can be stored and processed using RDBMS | Structured and semi-structure data can be stored and processed using HBase |
+| a | Aggregation is an expensive operation | Enables aggregation over many rows and columns |
